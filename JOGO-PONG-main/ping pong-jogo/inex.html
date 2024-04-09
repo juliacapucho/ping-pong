@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+  
+      <div>
+        <h1>Ping Pong</h1>
+        
+    </div>
+    <button id="play" onclick="iniciarJogo()"><img alt="play" width="100px"></button>
+    <br>
+    
+    <canvas width="1280" height="500"></canvas>
+
+    <div id="pontuacao">
+        <span id="jogador1" style="font-size: 15px; color: #8f1403; position: relative; bottom: 0.5vh;"></span> <span style="color: #8f1403;" id="pontos_raquete1"></span> : <span style="color: #0f2392;" id="pontos_raquete2"></span> <span id="jogador2" style="font-size: 15px; color: #0f2392; position: relative; bottom: 0.5vh;"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
